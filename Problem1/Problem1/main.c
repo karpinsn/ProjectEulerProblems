@@ -17,12 +17,18 @@
 int main (int argc, const char * argv[])
 {
     int maxNumber = 1000;
-    for(int number = 0; number < maxNumber; number++)
+    long int sum = 0;
+    
+    for(int number = 1; number < maxNumber; number++)
     {
-        
+        if(number % 3 == 0 || number % 5 == 0)
+        {
+            //  multiple of 3 or 5
+            sum += number;
+        }
     }
     
-    printf("Hello, World!\n");
+    printf("Final sum is: %ld\n", sum);
     return 0;
 }
 
