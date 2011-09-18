@@ -1,0 +1,205 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF9B73AE14254223002A59CD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BF9B73AD14254223002A59CD /* main.c */; };
+		BF9B73B014254223002A59CD /* Problem_94.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF9B73AF14254223002A59CD /* Problem_94.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF9B73A714254223002A59CD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				BF9B73B014254223002A59CD /* Problem_94.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF9B73A914254223002A59CD /* Problem 94 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem 94"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9B73AD14254223002A59CD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BF9B73AF14254223002A59CD /* Problem_94.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Problem_94.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF9B73A614254223002A59CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF9B739E14254223002A59CD = {
+			isa = PBXGroup;
+			children = (
+				BF9B73AC14254223002A59CD /* Problem 94 */,
+				BF9B73AA14254223002A59CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF9B73AA14254223002A59CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF9B73A914254223002A59CD /* Problem 94 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF9B73AC14254223002A59CD /* Problem 94 */ = {
+			isa = PBXGroup;
+			children = (
+				BF9B73AD14254223002A59CD /* main.c */,
+				BF9B73AF14254223002A59CD /* Problem_94.1 */,
+			);
+			path = "Problem 94";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF9B73A814254223002A59CD /* Problem 94 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9B73B314254223002A59CD /* Build configuration list for PBXNativeTarget "Problem 94" */;
+			buildPhases = (
+				BF9B73A514254223002A59CD /* Sources */,
+				BF9B73A614254223002A59CD /* Frameworks */,
+				BF9B73A714254223002A59CD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Problem 94";
+			productName = "Problem 94";
+			productReference = BF9B73A914254223002A59CD /* Problem 94 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF9B73A014254223002A59CD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BF9B73A314254223002A59CD /* Build configuration list for PBXProject "Problem 94" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF9B739E14254223002A59CD;
+			productRefGroup = BF9B73AA14254223002A59CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF9B73A814254223002A59CD /* Problem 94 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF9B73A514254223002A59CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9B73AE14254223002A59CD /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF9B73B114254223002A59CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BF9B73B214254223002A59CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF9B73B414254223002A59CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF9B73B514254223002A59CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF9B73A314254223002A59CD /* Build configuration list for PBXProject "Problem 94" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9B73B114254223002A59CD /* Debug */,
+				BF9B73B214254223002A59CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9B73B314254223002A59CD /* Build configuration list for PBXNativeTarget "Problem 94" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9B73B414254223002A59CD /* Debug */,
+				BF9B73B514254223002A59CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF9B73A014254223002A59CD /* Project object */;
+}
