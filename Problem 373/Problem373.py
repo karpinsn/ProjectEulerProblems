@@ -22,7 +22,7 @@ def radiFinder(triangle):
     
     return num / denom if num % denom == 0 else 0
 
-n = 100
+n = 100  
 S = 0
 triangleCount = 0
 
@@ -35,9 +35,10 @@ for a in xrange(1, n * 2 + 1):
                 S = S + temp
                 num = math.degrees(math.acos(math.fabs(b**2 + c**2 - a**2)/(2*b*c))) 
           
-
-#)print temp
-                print (a,b,c), " ", temp, " ", num
+                factor = (a+b+c)*(a+b-c)*(a-b+c)*(-a+b+c)
+                factor = factor**.5
+                #if not factor % 96 == 0:
+                print (a,b,c), " ", temp, " ", num, factor % 96 == 0
                 
 
 
